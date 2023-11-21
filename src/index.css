@@ -58,14 +58,11 @@
   animation: highlightContent 0.5s ease forwards;
 }
 
-.container {
+html, body {
   overflow: auto; 
 }
 
-.container::-webkit-scrollbar {
+html::-webkit-scrollbar, body::-webkit-scrollbar {
   display: none;
 }
 
-.body::-webkit-scrollbar {
-  display: none;
-}
