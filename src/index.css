@@ -1,0 +1,59 @@
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+@layer components {
+  .timeline-img{
+    @apply h-24 w-24 border-4 border-white object-cover rounded-full shadow-md xs:absolute;
+  }
+
+  .timeline-container{
+    @apply relative pt-2 xs:pl-28 xs:p-0 md:w-1/2 md:ml-auto
+  }
+
+  .timeline-container-left{
+    @apply md:mr-auto md:ml-0 md:pl-0 md:pr-16
+  }
+
+  .timeline-pointer{
+    @apply absolute inset-0 left-10 h-4 w-4 transform rotate-45 bg-white xs:top-11 xs:left-26
+  }
+
+  .timeline-pointer-left{
+    @apply right-14 md:left-auto
+  }
+}
+
+@keyframes growLine {
+  from {
+      height: 0;
+  }
+  to {
+      height: 100%;
+  }
+}
+
+.grow-line-animation {
+  animation: growLine 5s ease forwards;
+}
+
+.custom-shadow{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+@keyframes highlightContent {
+  from {
+      box-shadow: none;
+      transform: scale(1);
+  }
+  to {
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      transform: scale(1.05);
+  }
+}
+
+.highlighted-content {
+  animation: highlightContent 0.5s ease forwards;
+}
