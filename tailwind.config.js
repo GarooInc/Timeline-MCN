@@ -21,7 +21,7 @@ export default {
       colors: {
         'mcn-blue': '#2EC3EE',
         'mcn-skyblue': '#0859C6',
-        'mcn-darksky': '#10A5F5',
+        'mcn-darksky': '#2EC3EE',
         'mcn-orange': '#F4B53E',
       },
     },

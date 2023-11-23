@@ -43,7 +43,7 @@ const Timeline = ({ imgsource, text, left }) => {
                 <div aria-hidden="true" 
                 className={left ? "timeline-pointer timeline-pointer-left" : "timeline-pointer"}>
                 </div>
-                <div className={`bg-white p-6 rounded-md custom-shadow ${highlight ? "highlighted-content" : ""}`}>
+                <div className={`bg-white p-6 mb-2 rounded-md custom-shadow ${highlight ? "highlighted-content" : ""}`}>
                     <span className="text-mcn-orange font-bold text-lg w-full">Lorem ipsum dolor sit amet</span>
                     <p className="text-gray-500 text-sm mt-2">{text}</p>
                 </div>
