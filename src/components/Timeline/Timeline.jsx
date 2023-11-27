@@ -1,7 +1,8 @@
 import React, {useState, useRef, useEffect} from "react"
 import PropTypes from "prop-types"
 
-const Timeline = ({ imgsource, text, left }) => {
+const Timeline = ({ imgsource, text, left, handleVerMasClick }) => {
+
     const [highlight, setHighlight] = useState(false)
     const ref = useRef(null)
 
@@ -29,7 +30,7 @@ const Timeline = ({ imgsource, text, left }) => {
 
     return(
         <div className="mt-8" ref={ref}>
-        <div className="z-0 absolute w-2 h-full bg-mcn-blue shadow-md inset-0 left-17 md:mx-auto md:rigth-0 md:left-0 grow-line-animation">
+        <div className="z-2 absolute w-2 h-full bg-mcn-blue shadow-md inset-0 left-17 md:mx-auto md:rigth-0 md:left-0 grow-line-animation">
 
         </div>
         <div className="relative z-10">
@@ -46,6 +47,10 @@ const Timeline = ({ imgsource, text, left }) => {
                 <div className={`bg-white p-6 mb-2 rounded-md custom-shadow ${highlight ? "highlighted-content" : ""}`}>
                     <span className="text-mcn-orange font-bold text-lg w-full">Lorem ipsum dolor sit amet</span>
                     <p className="text-gray-500 text-sm mt-2">{text}</p>
+                    <button onClick={handleVerMasClick} className="text-mcn-orange pt-4 hover:text-mcn-blue">
+                Ver más
+            </button>
+
                 </div>
             </div>
         </div>
@@ -56,7 +61,8 @@ const Timeline = ({ imgsource, text, left }) => {
 Timeline.propTypes = {
     imgsource: PropTypes.string.isRequired,
     text: PropTypes.string.isRequired,
-    left: PropTypes.bool.isRequired
+    left: PropTypes.bool.isRequired,
+    handleVerMasClick: PropTypes.func.isRequired
 }
 
 
