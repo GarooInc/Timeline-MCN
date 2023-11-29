@@ -102,7 +102,7 @@ function App() {
 
   return (
     <div className='flex flex-col justify-center items-center'>
-      <h1 className='md:text-6xl font-bold text-black mt-8 mb-4 text-center'>De la 
+      <h1 className='md:text-6xl text-3xl font-bold text-black mt-8 mb-4 text-center'>De la 
       <span className='text-mcn-blue font-extrabold'> elección </span>
       a la 
       <span className='text-mcn-blue font-extrabold'> transición </span>
