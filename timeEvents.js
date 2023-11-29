@@ -698,7 +698,7 @@ const timeEvents = [
     observations: "",
     annexes: "",
     left: true,
-    icon: "/images/3.jpeg"
+    icon: "/images/7.png"
   },
   ];
   
