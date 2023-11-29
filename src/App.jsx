@@ -81,7 +81,7 @@ const FichaComponent = ({ficha, links}) => (
       ): (
         (
           <div className="relative container mx-auto px-6 w-full flex flex-col space-y-8 h-full">
-            {timeEvents.map((event, index) => (
+            {timeEvents.slice().reverse().map((event, index) => (
               <Timeline
                 key={index}
                 imgsource={event.icon}

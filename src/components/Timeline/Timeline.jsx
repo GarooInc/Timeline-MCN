@@ -61,7 +61,7 @@ const Timeline = ({ imgsource, text, left, handleVerMasClick, date, event, ficha
                     }
                     {
                     showVerMasButton && (
-                        <button onClick={handleVerMasClick} className="my-2 hover:text-mcn-orange pt-2 border border-mcn-orange text-xs md:text-lg rounded-md px-4 py-2 hover:bg-white bg-mcn-orange text-white">
+                        <button onClick={handleVerMasClick} className="my-2 hover:text-mcn-orange pt-2 border border-mcn-orange text-xs md:text-l rounded-md px-4 py-2 hover:bg-white bg-mcn-orange text-white font-bold">
                             Ver más
                         </button>
                     )
