@@ -36,7 +36,7 @@
 }
 
 .grow-line-animation {
-  animation: growLine 5s ease forwards;
+  animation: growLine 20s ease forwards;
 }
 
 .custom-shadow{

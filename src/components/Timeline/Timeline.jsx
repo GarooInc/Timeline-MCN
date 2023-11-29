@@ -1,10 +1,12 @@
-import React, {useState, useRef, useEffect} from "react"
+import {useState, useRef, useEffect} from "react"
 import PropTypes from "prop-types"
 
-const Timeline = ({ imgsource, text, left, handleVerMasClick }) => {
+const Timeline = ({ imgsource, text, left, handleVerMasClick, date, event, ficha, link, links }) => {
 
     const [highlight, setHighlight] = useState(false)
     const ref = useRef(null)
+    const showVerMasButton = ficha || (links && links.length > 0);
+
 
     useEffect(() => {
         const handleScroll = () => {
@@ -30,7 +32,7 @@ const Timeline = ({ imgsource, text, left, handleVerMasClick }) => {
 
     return(
         <div className="mt-8" ref={ref}>
-        <div className="z-2 absolute w-2 h-full bg-mcn-blue shadow-md inset-0 left-17 md:mx-auto md:rigth-0 md:left-0 grow-line-animation">
+        <div className="z-2 absolute w-2 h-full bg-mcn-blue inset-0 left-17 md:mx-auto md:rigth-0 md:left-0 grow-line-animation">
 
         </div>
         <div className="relative z-10">
@@ -44,13 +46,26 @@ const Timeline = ({ imgsource, text, left, handleVerMasClick }) => {
                 <div aria-hidden="true" 
                 className={left ? "timeline-pointer timeline-pointer-left" : "timeline-pointer"}>
                 </div>
-                <div className={`bg-white p-6 mb-2 rounded-md custom-shadow ${highlight ? "highlighted-content" : ""}`}>
-                    <span className="text-mcn-orange font-bold text-lg w-full">Lorem ipsum dolor sit amet</span>
+                <div className={`bg-white flex flex-col p-6 mb-2 rounded-md custom-shadow ${highlight ? "highlighted-content" : ""}`}>
+                    <span className="text-mcn-orange font-bold text-lg w-full">{event}</span>
+                    <span className="text-gray-800 text-sm mt-2 pt-2">{date}</span>
                     <p className="text-gray-500 text-sm mt-2">{text}</p>
-                    <button onClick={handleVerMasClick} className="text-mcn-orange pt-4 hover:text-mcn-blue">
-                Ver más
-            </button>
-
+                    {
+                        link && (
+                        <div className="flex flex-col justify-center items-start gap-2">
+                            <a href={link} target="_blank" rel="noopener noreferrer" className="text-mcn-blue hover:text-blue-800 py-4 text-xs md:text-l font-bold ">
+                            Ver Recurso
+                            </a>
+                        </div>
+                        )
+                    }
+                    {
+                    showVerMasButton && (
+                        <button onClick={handleVerMasClick} className="my-2 hover:text-mcn-orange pt-2 border border-mcn-orange text-xs md:text-lg rounded-md px-4 py-2 hover:bg-white bg-mcn-orange text-white">
+                            Ver más
+                        </button>
+                    )
+                    }
                 </div>
             </div>
         </div>
@@ -62,7 +77,12 @@ Timeline.propTypes = {
     imgsource: PropTypes.string.isRequired,
     text: PropTypes.string.isRequired,
     left: PropTypes.bool.isRequired,
-    handleVerMasClick: PropTypes.func.isRequired
+    handleVerMasClick: PropTypes.func.isRequired,
+    date: PropTypes.string.isRequired,
+    event: PropTypes.string.isRequired,
+    ficha: PropTypes.string,
+    link: PropTypes.string,
+    links: PropTypes.arrayOf(PropTypes.string)
 }
 
 
