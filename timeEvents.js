@@ -655,7 +655,7 @@ const timeEvents = [
     left: false,
     icon: "/images/1.jpeg"
   },
-  {
+/*   {
     id: 65,
     date: "Enero de 2024",
     event: "Transición de Mando - Tercera etapa",
@@ -690,12 +690,12 @@ const timeEvents = [
     annexes: "",
     left: true,
     icon: "/images/3.jpeg"
-  },
+  }, */
   {
     id: 69,
     date: "14 de enero de 2024",
-    event: "Juramentación y Toma  de Posesión del Presidente y Vicepresidente para el periodo 2024-2028",
-    observations: "En la Gran Sala Efraín Recinos del Centro Cultura Miguel Ángel Asturias, se continúa con la Sesión Solemene y se realiza la juramentación y toma de posición del Presidente Bernardo Arévalo y Vicepresidenta Karin Herrera. Posteriormente se coloca la banda presidencial al nuevo gobernante, se le impone el pin presidencial y se le entregan las llaves de la urna de la primera Constitución Política de la República, para finalizar con la firma del libro de oro del Congreso. ",
+    event: "Toma de posesión de autoridades electas",
+    observations: "",
     annexes: "",
     left: true,
     icon: "/images/3.jpeg"

@@ -102,6 +102,11 @@ function App() {
 
   return (
     <div className='flex flex-col justify-center items-center'>
+      <h1 className='md:text-6xl font-bold text-black mt-8 mb-4 text-center'>De la 
+      <span className='text-mcn-blue font-extrabold'> elección </span>
+      a la 
+      <span className='text-mcn-blue font-extrabold'> transición </span>
+      </h1>
       <CountdownTimer />
       <div className="relative container mx-auto px-6 w-full flex flex-col space-y-8 h-full">
             {timeEvents.slice().reverse().map((event, index) => (
