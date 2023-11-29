@@ -69,7 +69,7 @@ const FichaComponent = ({ficha, links}) => (
           {
             !ficha && links && (
               <div className="flex flex-col justify-center items-center p-4 gap-2 md:m-0 mt-14">
-                <h3 className="text-mcn-orange font-bold text-xs w-full md:text-lg text-left">Recursos</h3>
+                <h3 className="text-mcn-orange font-bold text-lg w-full md:text-lg text-left">Recursos</h3>
                 {
                   links.map((link, index) => (
                     <a key={index} href={link} target="_blank" rel="noopener noreferrer" className="text-mcn-blue hover:text-blue-800 text-xs md:text-lg">
