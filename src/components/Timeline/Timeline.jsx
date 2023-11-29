@@ -27,7 +27,8 @@ const Timeline = ({ imgsource, text, left, handleVerMasClick, date, event, ficha
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
-    }, []);
+        
+    }, []); 
 
 
     return(
