@@ -53,15 +53,15 @@ function App() {
                   <div className="flex flex-col justify-center items-center p-4 gap-2 md:p-8  mt-12">
                   <span className="text-black md:text-xl mt-2 w-full text-center font-bold">{ficha.name}</span>
                   <div className="pt-4 md:pt-8 flex flex-col md:gap-0 gap-2">
-                    <h3 className="text-mcn-orange font-bold text-md w-full md:text-lg">Descripción</h3>
+                    <h3 className="text-mcn-orange font-bold text-xs w-full md:text-lg">Descripción</h3>
                     <span className="text-gray-500 text-xs md:text-lg mt-2 w-full">{renderTextWithLineBreaks(ficha.desc)}</span>
-                    <h3 className="text-mcn-orange font-bold text-md w-full md:text-lg">Situación actual</h3>
+                    <h3 className="text-mcn-orange font-bold text-xs w-full md:text-lg">Situación actual</h3>
                     <span className="text-gray-500 text-xs md:text-lg mt-2 w-full">{renderTextWithLineBreaks(ficha.sit)}</span>
-                    <h3 className="text-mcn-orange font-bold text-md w-full md:text-lg text-left">Efectos del caso</h3>
+                    <h3 className="text-mcn-orange font-bold text-xs w-full md:text-lg text-left">Efectos del caso</h3>
                     <span className="text-gray-500 text-xs md:text-lg mt-2 text-left w-full">{renderTextWithLineBreaks(ficha.efectos)}</span>
-                    <h3 className="text-mcn-orange font-bold text-md w-full md:text-lg text-left">Tipo de Proceso</h3>
+                    <h3 className="text-mcn-orange font-bold text-xs w-full md:text-lg text-left">Tipo de Proceso</h3>
                     <span className="text-gray-500 text-xs md:text-lg mt-2 text-left w-full">{ficha.tipo}</span>
-                    <h3 className="text-mcn-orange font-bold text-md w-full md:text-lg text-left">Juez</h3>
+                    <h3 className="text-mcn-orange font-bold text-xs w-full md:text-lg text-left">Juez</h3>
                     <span className="text-gray-500 text-xs md:text-lg mt-2 text-left w-full">{ficha.juez}</span>
                   </div>
                 </div>
