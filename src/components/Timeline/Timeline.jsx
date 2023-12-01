@@ -30,6 +30,15 @@ const Timeline = ({ imgsource, text, left, handleVerMasClick, date, event, ficha
         
     }, []); 
 
+    const renderTextWithLineBreaks = (text) => {
+        return text.split('<br>').map((line, index) => (
+            <span key={index}>
+                {line}
+                <br />
+            </span>
+        ))
+      }
+
 
     return(
         <div className="mt-8" ref={ref}>
@@ -50,7 +59,7 @@ const Timeline = ({ imgsource, text, left, handleVerMasClick, date, event, ficha
                 <div className={`bg-white flex flex-col p-6 mb-2 rounded-md custom-shadow ${highlight ? "highlighted-content" : ""}`}>
                     <span className="text-mcn-orange font-bold text-lg w-full">{event}</span>
                     <span className="text-gray-800 text-sm mt-2 pt-2">{date}</span>
-                    <p className="text-gray-500 text-sm mt-2">{text}</p>
+                    <p className="text-gray-500 text-sm mt-2">{renderTextWithLineBreaks(text)}</p>
                     {
                         link && (
                         <div className="flex flex-col justify-center items-start gap-2">

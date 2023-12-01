@@ -655,6 +655,34 @@ const timeEvents = [
     left: false,
     icon: "/images/1.jpeg"
   },
+  {
+    id: 65,
+    date: "29 de noviembre de 2023",
+    event: "Comisión Pesquisidora emite informe que recomienda retirar el antejuicio a los Magistrados del TSE",
+    observations: `
+    La comisión pesquisidora emitió el informe correspondiente. La comisión decidió, con 3 votos a favor y 2 votos en contra, recomendar retirar la inmunidad a los magistrados del Tribunal Supremo Electoral a los que la Corte de Constitucionalidad no les otorgó amparo provisional. 
+    Las votaciones fueron así:<br>
+    ▪️Presidente de la comisión: Julio Enrique Montano, votó en contra de retirar la inmunidad.<br>
+    ▪️Secretario: Julio César Longo, votó a favor de retirar la inmunidad.<br>
+    ▪️Vocal I: Flavio Valdemar Muñoz, votó a favor.<br>
+    ▪️Vocal II: Douglas Rivero Mérida, votó a favor.<br>
+    ▪️Vocal III: Osmundo René Ponce, votó en contra.`,
+    annexes: "",
+    left: false,
+    icon: "/images/1.jpeg",
+    link: "https://drive.google.com/file/d/1NLO1OY6Fy7U96-3yGvBRqvAi25QZZtAh/view?usp=drive_link"
+  },
+  {
+    id: 66,
+    date: "30 de noviembre de 2023",
+    event: "Pleno del Congreso Conoce el Informe de la Comisión Pesquisidora del antejuicio contra los Magistrados del Tribunal Supremo Electoral",
+    observations: `
+    Durante la última sesión plenaria del periodo ordinario, el Congreso acordó retirar el antejuicio a los magistrados del TSE: Irma Palencia, Ranulfo Rojas, Gabriel Aguilera y Mynor Franco.`,
+    annexes: "",
+    left: false,
+    icon: "/images/1.jpeg"
+  },
+
 /*   {
     id: 65,
     date: "Enero de 2024",
