@@ -102,11 +102,13 @@ function App() {
 
   return (
     <div className='flex flex-col justify-center items-center'>
-      <h1 className='md:text-6xl text-3xl font-bold text-black mt-8 mb-4 md:mx-0 mx-4 text-center'>De la 
-      <span className='text-mcn-blue font-extrabold'> elección </span>
-      a la 
-      <span className='text-mcn-blue font-extrabold'> transición </span>
+      <a href='https://mcn.org.gt/pages/preguntas-frecuentes-de-la-eleccion-a-la-transicion' target='_blank' rel='noreferrer'>
+      <h1 className='md:text-6xl text-3xl font-bold text-black mt-8 mb-4 md:mx-0 mx-4 text-center hover:text-mcn-blue'>De la 
+        <span className='text-mcn-blue font-extrabold hover:text-black'> elección </span>
+        a la 
+        <span className='text-mcn-blue font-extrabold hover:text-black'> transición </span>
       </h1>
+      </a>
       <CountdownTimer />
       <div className="relative container mx-auto px-6 w-full flex flex-col space-y-8 h-full">
             {timeEvents.slice().reverse().map((event, index) => (
