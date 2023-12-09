@@ -682,6 +682,28 @@ const timeEvents = [
     left: false,
     icon: "/images/1.jpeg"
   },
+  {
+    id: 67,
+    date: "8 de diciembre de 2023",
+    event: "MP anuncia la presentación de la solicitud de retiro de antejuicio contra Bernardo Arévalo",
+    observations: `
+    La solicitud se presenta en el contexto del caso "Corrupción Semilla" por los delitos de uso de documento falsificado con agravante electoral de forma continuada, omisión de denuncia, desobediencia y obstrucción de justicia.<br> Se argumenta que Bernardo Arévalo, como secretario general del partido, conocía de la adhesión de ciudadanos con firmas falsas al partido político al momento de su constitución. Además se presentó también solicitud de antejucio por el delito de lavado de dinero, debido a que no se justificó la fuente de dinero de un préstamo por US$44mil que recibió el partido. 
+    `,
+    annexes: "",
+    left: false,
+    icon: "/images/1.jpeg"
+  },{
+    id: 68,
+    date:"8 de diciembre de 2023",
+    event:"MP anuncia caso sobre irregularidades en el TREP, las actas número 4 y 8 del proceso electoral",
+    observations:`
+    El MP realizó una investigación con base en los documentos electorales secuestrados en los allanamientos desarrollados en el TSE en septiembre de 2023.<br> Según la investigación, existieron irregularidades en la forma de llenar las actas número 4 y número 8, así como inconsistencias entre los documentos físicos y los publicados en el TREP, por lo mismo manifestaron que enviarían la investigación al TSE para la toma de decisiones sobre el proceso electoral.<br> A criterio del MP, las actas número 4 deberían ser nulas dadas las inconsistencias encontradas. Por lo mismo se solicitó la captura de Jorge Salvador Santos - Director de Informática del TSE por los delitos de abuso de autoridad y falsededad material y Alejandra Chiroy - Directora del Departamento de Inscripción de Ciudadanos por abuso de autoridad.
+    `,
+    annexes:"Presentación del MP -  ILEGALIDADES COMETIDAS POR EL TRIBUNAL SUPREMO ELECTORAL EN EL PROCESO ELECTORAL 2023",
+    left: false,
+    icon: "/images/1.jpeg",
+    link: "https://drive.google.com/file/d/1z5mV4LTpsebko2mgix7-Ee9ikvL8cmFv/view?usp=drive_link"
+  },
 
 /*   {
     id: 65,
