@@ -1,7 +1,7 @@
 import {useState, useRef, useEffect} from "react"
 import PropTypes from "prop-types"
 
-const Timeline = ({ imgsource, text, left, handleVerMasClick, date, event, ficha, link, links }) => {
+const Timeline = ({ imgsource, text, left, handleVerMasClick, date, event, ficha, link, links,language }) => {
 
     const [highlight, setHighlight] = useState(false)
     const ref = useRef(null)
@@ -64,7 +64,12 @@ const Timeline = ({ imgsource, text, left, handleVerMasClick, date, event, ficha
                         link && (
                         <div className="flex flex-col justify-center items-start gap-2">
                             <a href={link} target="_blank" rel="noopener noreferrer" className="text-mcn-blue hover:text-blue-800 py-4 text-xs md:text-l font-bold ">
-                            Ver Recurso
+                                {
+                                    language === 'es' ?
+                                    "Ver Recurso"
+                                    :
+                                    "Resource"
+                                }
                             </a>
                         </div>
                         )
@@ -72,7 +77,12 @@ const Timeline = ({ imgsource, text, left, handleVerMasClick, date, event, ficha
                     {
                     showVerMasButton && (
                         <button onClick={handleVerMasClick} className="my-2 hover:text-mcn-orange pt-2 border border-mcn-orange text-xs md:text-l rounded-md px-4 py-2 hover:bg-white bg-mcn-orange text-white font-bold">
-                            Ver más
+                            {
+                                language === 'es' ?
+                                "Ver más"
+                                :
+                                "See more"
+                            }
                         </button>
                     )
                     }

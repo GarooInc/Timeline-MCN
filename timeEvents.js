@@ -126,14 +126,14 @@ const timeEvents = [
         date: "12 de julio de 2023",
         event: "Orden de suspensión del partido Movimiento Semilla",
         observations: "Juez 7° de Instancia Penal, Narcoactividad y Delitos contra el Ambiente ordena la suspensión del partido Movimiento Semilla",
-        annexes: "Oficio del 12 de julio de 2023, entregado en el Registro de Ciudadanos el 12 de julio de 2023. FICHA DE CASO CORRUPCIÓN SEMILLA + PRESENTACIÓN MP",
+        annexes: "Oficio del 12 de julio de 2023, entregado en el Registro de Ciudadanos el 12 de julio de 2023. file DE CASO CORRUPCIÓN SEMILLA + PRESENTACIÓN MP",
         left: false,
         icon: "/images/1.jpeg",
         links:[
         "https://drive.google.com/file/d/1QFRuF8mZ9W8bNgz0PfhQcfXTuRU5opKN/view?usp=drive_link",
         "https://drive.google.com/file/d/1VUZonLFoTW13KiOhH19h6Ge3boqwi0w8/view?usp=drive_link"
         ],
-        ficha:{
+        file:{
             name:"Caso Corrupción Semilla",
             desc: "Según declaraciones del Fiscal Rafael Curruchiche existen indicios de que posiblemente más de 5,000 ciudadanos fueron adheridos ilegalmente al partido, por medio de falsificación de su letra y firma y se inscribieron a 12 personas fallecidas. Además, de acuerdo con las declaraciones del Ministerio Público, el partido Movimiento Semilla contrató los servicios de recolección de firmas por las que supuestamente pagaría Q7.00 por firma recolectada. Lo que supuestamente da indicios sobre la posible comisión de los delitos de lavado de dinero u otros activos.",
             sit: "El expediente está en reserva por parte de la FECI. El Ministerio Público lleva investigando el caso por tiempo desconocido y no se sabe con certeza qué inició la investigación, qué han recaudado ni quiénes estarían implicados. Pues nadie tiene acceso a ese expediente.<br> El Ministerio Público puede, en esta fase, pedir al juez que autorice allanamientos. En este caso el Juez 7º de Instancia Penal ha autorizado la realización de allanamientos al Tribunal Supremo Electoral, así como a la sede del partido Movimiento Semilla y el secuestro de documentos. ",
@@ -493,7 +493,7 @@ const timeEvents = [
     left: false,
     icon: "/images/1.jpeg",
     link:"https://drive.google.com/file/d/1ZORku8vfYyYoy9r3T_gnSUQ25ufMMpSl/view?usp=drive_link",
-    ficha:{
+    file:{
         name:" Denuncia Karen Fisher y Giovanni Fratti",
         desc: "La denuncia se presentó el 29/06/2023, denunciando un fraude electoral. Sin embargo, de acuerdo con declaraciones de los denunciantes, la denuncia fue ampliada en agosto de 2023. En la ampliación señalaron irregularidades en la adquisición del Sistema para la Transmisión de Resultados Electorales (TREP). La denuncia fue presentada contra todos los magistrados del TSE.",
         sit: "El Ministerio Público presentó solicitud de antejuicio, que fue admitida por la Corte Suprema de Justicia y se remitió el expediente al Congreso de la República.<br>El Congreso integró la Comisión Pesquisidora a cargo de conocer la solicitud de antejuicio que ha llevado a cabo sesiones y ha escuchado a distintos actores. <br>Se espera que rindan su informe el 28 de noviembre, dado que la propuesta del presidente de rendirlo en enero 2024 fue rechazada.",
@@ -531,11 +531,11 @@ const timeEvents = [
     date: "17 de noviembre de 2023",
     event: "Solicitud de antejuicio",
     observations: "Ministerio Público presenta solicitud de antejuicio en contra de Bernardo Arévalo, Karin Herrera, Samuel Pérez, Raul Barrera, Carlos Barrera y Adán Pérez y Pérez",
-    annexes: "FICHA DE CASO + PRESENTACIÓN DEL MP SOBRE EL CASO. ",
+    annexes: "file DE CASO + PRESENTACIÓN DEL MP SOBRE EL CASO. ",
     left: false,
     icon: "/images/1.jpeg",
     link:"https://drive.google.com/file/d/1_klwHTFyA9fv-n3O_4qdWQxlFQf3UieD/view?usp=drive_link",
-    ficha:{
+    file:{
         name:"Caso Toma de la USAC: Botín Político",
         desc: "El proceso inició por denuncia del rector de la USAC, Walter Mazariegos. Quien denunció los daños estructurales a sus instalaciones luego de haber sido tomada por más de un año y devuelta a las autoridades el 9 de junio de 2023. En la denuncia se involucra a estudiantes, catedráticos y a otras personas como: Bernardo Arévalo, Karin Herrera, Samuel Pérez, Román Castellanos, Aldo Dávila, Carlos Barrera, Raúl Barrera y Adán Pérez y Pérez; contra quienes se presentó solicitud de antejuicio.",
         sit: "Se presentaron solicitudes de antejuicio que no han sido resueltas por la Corte Suprema de Justicia. Algunos sindicados fueron detenidos y ligados a proceso.",
@@ -580,7 +580,7 @@ const timeEvents = [
     date: "21 de noviembre de 2023",
     event: "Inicio de audiencia",
     observations: "Inicio de audiencia de primera declaración de personas detenida por el Caso Toma de la USAC: Botín Político ",
-    annexes: "FICHA DE CASO + PRESENTACIÓN DEL MP SOBRE EL CASO. ",
+    annexes: "file DE CASO + PRESENTACIÓN DEL MP SOBRE EL CASO. ",
     left: false,
     icon: "/images/1.jpeg"
   },
@@ -598,7 +598,7 @@ const timeEvents = [
     date: "22 de noviembre de 2023",
     event: "Solicitud de antejuicio",
     observations: "Ministerio Público presenta solicitud de antejuicio contra los diputados Román Wilfredo Castellanos Caal y Aldo Iván Dávila Morales",
-    annexes: "FICHA DE CASO + PRESENTACIÓN DEL MP SOBRE EL CASO. ",
+    annexes: "file DE CASO + PRESENTACIÓN DEL MP SOBRE EL CASO. ",
     left: false,
     icon: "/images/1.jpeg"
   },
@@ -634,10 +634,10 @@ const timeEvents = [
     date: "25 de noviembre de 2023",
     event: "Presentación de denuncia",
     observations: "Contraloría General de cuentas presenta 2 denuncias contra Magistrados del Tribunal Supremo Electoral ",
-    annexes: "FICHA DE CASO ",
+    annexes: "file DE CASO ",
     left: false,
     icon: "/images/1.jpeg",
-    ficha:{
+    file:{
         name:"Denuncia Contraloría General de Cuentas – Adquisición Sistema TREP",
         desc: "La denuncia se presentó por posible abuso de autoridad e incumplimiento de deberes en contra de los magistrados del TSE, relacionada a la adquisición del programa informático para la Transmisión de Resultados Electorales (TREP) por un valor de Q148 millones. De acuerdo con declaraciones de la Contraloría General de Cuentas se estableció falta de planificación eficiente y documentación de soporte.",
         sit: "La denuncia fue presentada en el MP. Es importante señalar que ya existe una denuncia sobre la adquisición del TREP, por lo que existe la posibilidad de que esta se acumule con la denuncia de Giovanni Fratti y Karen Fisher.         ",

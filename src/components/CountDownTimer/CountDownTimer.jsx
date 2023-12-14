@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const CountdownTimer = () => {
+const CountdownTimer = ({language}) => {
   const calculateTimeLeft = () => {
     const difference = +new Date("2024-01-14T14:00:00") - +new Date();
     let timeLeft = {}
@@ -33,19 +33,19 @@ const CountdownTimer = () => {
         <div className="flex flex-row justify-center items-center text-mcn-darksky md:gap-8 m-4 gap-6 shadow-md p-2 rounded-xl">
           <div className='flex flex-col items-center'>
             <span className='text-3xl font-bold'>{timeLeft.dias}</span>
-            <span> Días </span>
+            <span> {language === 'es' ? "Días" : "Days"}</span>
           </div>
           <div className='flex flex-col items-center'>
             <span className='text-3xl font-bold'>{timeLeft.horas}</span>
-            <span> Horas </span>
+            <span> {language === 'es' ? "Horas" : "Hours"}</span>
             </div>
           <div className='flex flex-col items-center'>
             <span className='text-3xl font-bold'>{timeLeft.minutos}</span>
-            <span> Minutos </span>
+            <span> {language === 'es' ? "Minutos" : "Minutes"}</span>
           </div>
           <div className='flex flex-col items-center'>
             <span className='text-3xl font-bold'>{timeLeft.segundos}</span>
-            <span> Segundos </span>
+            <span> {language === 'es' ? "Segundos" : "Seconds"}</span>
           </div>
         </div>
       )}
