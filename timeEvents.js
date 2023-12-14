@@ -703,6 +703,30 @@ const timeEvents = [
     left: false,
     icon: "/images/1.jpeg",
     link: "https://drive.google.com/file/d/1z5mV4LTpsebko2mgix7-Ee9ikvL8cmFv/view?usp=drive_link"
+  },{
+    id: 69,
+    date:"14 de diciembre de 2023",
+    event:"Corte de Constitucionalidad otorga amparo solicitado por abogados particulares en contra de la amenaza del régimen democrático (expediente 6175 - 2023)",
+    observations:`
+    Los efectos que se le otorga a la sentencia son los siguientes:<br><br>
+    1. Se conmina al Congreso de la República y su Junta Directiva garantizar la efectiva toma de posesión de todo funcionario electo en el proceso electoral 2023, conforme los Decretos de oficialización y validación de resultados emitidos por el TSE. <br><br>
+    2. Se exhorta al Congreso a actuar conforme al deber que tiene de preservar el régimen democrático y realizar todos los actos que les competen observando que, imperativamente, la renovación de los integrantes del Poder Legislativo y el Poder Ejecutivo se lleve a cabo el 14 de enero de 2024, con las personas que resultaron electas conforme los resultados avalados por el TSE.<br><br>
+    3. Lo decidido es sin perjuicio de las facultades de investigación que corresponden al MP y los jueces del orden penal y de las facultades del TSE sobre las incidencias que surgen en el ámbito de las organizaciones electorales.
+    `,
+    annexes:"EXPEDIENTE 6175-2023",
+    left: false,
+    icon: "/images/1.jpeg",
+    link:"https://drive.google.com/file/d/1-5DgmX048ImjWPvrprtPImYlwsNAGtLx/view?usp=sharing"
+  },
+  {
+    id: 70,
+    date:"14 de diciembre de 2023",
+    event:"MP presenta solicitud de retiro de antejuicio en contra de la magistrada presidente del TSE, Blanca Alfaro. ",
+    observations:`
+    La solicitud se presenta por los delitos de obstaculización a la acción penal e incumplimiento de deberes. 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
   },
 
 /*   {
@@ -742,7 +766,7 @@ const timeEvents = [
     icon: "/images/3.jpeg"
   }, */
   {
-    id: 69,
+    id: 71,
     date: "14 de enero de 2024",
     event: "Toma de posesión de autoridades electas",
     observations: "",

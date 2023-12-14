@@ -119,13 +119,13 @@ function App() {
   return (
     <div className='flex flex-col justify-center items-center relative'>
       <button
-        className="absolute top-8 right-2 px-4 py-2 bg-none rounded"
+        className="absolute top-10 right-4 p-2 bg-none rounded-full hover:bg-mcn-blue hover:text-white border border-mcn-blue text-mcn-blue font-bold"
         onClick={toggleLanguage}
       >
         {language === 'es' ? 
-        <img src="/images/en.svg" alt="Español" className='w-8' />
+        <span className='text-black'>EN</span>
         :
-        <img src="/images/es.svg" alt="English" className='w-8' />
+        <span className='text-black'>ES</span>
         }
       </button>
 

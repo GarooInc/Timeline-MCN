@@ -696,6 +696,31 @@ const timeEventsEn = [
     icon: "/images/1.jpeg",
     link: "https://drive.google.com/file/d/1z5mV4LTpsebko2mgix7-Ee9ikvL8cmFv/view?usp=drive_link"
   },
+  {
+    id: 69,
+    date:"December 14, 2023",
+    event:"Constitutional Court grants protection requested by private lawyers against the threat of the democratic regime (file 6175 - 2023)",
+    observations:`The CC issued the amparo ruling 6175-2023 requested by a group of lawyers against the threat that the inauguration of the elected authorities will not take place this year.<br>
+    The effects given to the sentence are the following:<br><br>
+    1. The Congress of the Republic and its Board of Directors are ordered to guarantee the effective inauguration of all elected officials in the 2023 electoral process, in accordance with the Decrees of officialization and validation of results issued by the TSE.<br><br>
+    2. Congress is urged to act in accordance with its duty to preserve the democratic regime and carry out all the acts within which it is competent, observing that, imperatively, the renewal of the members of the Legislative Branch and the Executive Branch takes place on December 14. January 2024, with the people who were elected according to the results endorsed by the TSE.<br><br>
+    3. The decision is without prejudice to the MP being able to continue the investigations to establish the existence of crimes and the powers that in this sense are granted to criminal judges (it means that the pre-trial proceedings against the elected president must continue even if that is an unregulated situation) and the powers of the TSE in the field of electoral organizations (it means that if applicable, the procedure for suspension or cancellation of the Movimiento Semilla party must be followed).
+    `,
+    annexes:"EXPEDIENTE 6175-2023",
+    left: false,
+    icon: "/images/1.jpeg",
+    link:"https://drive.google.com/file/d/1-5DgmX048ImjWPvrprtPImYlwsNAGtLx/view?usp=sharing"
+  },
+  {
+    id:70,
+    date:"December 14, 2023",
+    event:"MP presents a request to withdraw the pretrial against the presiding judge of the TSE, Blanca Alfaro.",
+    observations:`
+    The request is presented for the crimes of obstruction of criminal action and breach of duties.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
 
 /* {
     id: 65,
@@ -734,7 +759,7 @@ const timeEventsEn = [
     icon: "/images/3.jpeg"
   }, */
   {
-    id: 69,
+    id: 71,
     date: "January 14, 2024",
     event: "Inauguration of elected authorities",
     observations: "",
