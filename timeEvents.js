@@ -728,6 +728,107 @@ const timeEvents = [
     left: false,
     icon: "/images/1.jpeg",
   },
+  {
+    id: 71,
+    date:"15 de diciembre de 2023",
+    event:"Juzgado 9no Pluripersonal de Instancia Penal otorga amparo solicitado por grupo de abogados en contra de la amenaza del régimen democrático.",
+    observations:`
+    El amparo presentado por un grupo de abogados fue distribuido a distintos organos jurisdiccionales, de acuerdo a su competencia.<br><br> 
+    El Juzgado Noveno Pluripersonal Instancia Penal resolvió en sentencia otrogar el amparo en definitiva y girar instrucciones tanto a la FECI como a la PNC, a efecto de que garanticen el principio de alternabilidad de poder y se abstengan de cualquier acción que atente contra este. 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 72,
+    date:"17 de diciembre de 2023",
+    event:"FECI apela sentencia de amparo emitida por el Juzgado Noveno Pluripersonal de Instancia Penal. ",
+    observations:`
+    La FECI fundamenta su apelación indicando que no exisiten argumentos reales sobre el supuesto atentado contra la alternabilidad de las autoridades. 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+
+  },
+  {
+    id: 73,
+    date:"20 de diciembre de 2023",
+    event:"Corte de Constitucionalidad resuelve acciones de inconstitucionalidad general parcial contra artículo de la Ley Orgánica del Ministerio Público.",
+    observations:`
+    La Corte de Constitucionalidad emitió sentencia a las acciones de inconstitucionalidad general parcial promovida por distintos actores, en contra del artículo 14 de la Ley Orgánica del Ministerio Público.<br>
+    La Corte consideró que la normativa impugnada con colisiona con la Constitución, por lo que declaró sin lugar las  acciones de inconstitucional general parcial promovidas.<br>
+    Los efectos de esta sentencia es que se concluye el trámite de las inconstitucionalidades y el artículo 14 de la Ley Orgánica del Ministerio Público, continúa vigente.<br>
+    En contra de esta resolución los interesados pueden interponer recurso de aclaración y ampliación en las próximas 48 horas. 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+    link:"https://drive.google.com/file/d/1ZzDu9dDOfHjV0Na0juEbCduOaYlD-eta/view?usp=drive_link"
+  },
+  {
+    id: 73,
+    date:"27 de diciembre de 2023",
+    event:"Corte de Constitucionalidad resuelve suspender acción de amparo promovida por ciudadanos en contra del proceso de antejuicio en contra de los Magistrados del TSE",
+    observations:`
+    La Corte consideró que los 14 ciudadanos que promovieron el amparo no tenían legitimación activa para promover el amparo.<br>
+    Por lo que confirmó el retiro de la inmunidad de los 4 magistrados del TSE. 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 74,
+    date:"27 de diciembre de 2023",
+    event:"Corte de Constitucionalidad no otorga amparo provisional a Karen Fischer, quien promovió acción de amparo para que el Congreso elija a los 2 magistrados suplentes que faltan para integrar el TSE. ",
+    observations:`
+    La acción de amparo presentada por Karen Fischer el 7 de diciembre de 2023, fue admitida por la Corte de Constitucionalidad.<br>
+    El amparo busca que la Corte de Constitucionalidad ordene al Congreso llevar a cabo la elección de los 2 magistrados suplentes para integrar el pleno del TSE.<br>
+    La Corte de Constitucionalidad resolvió continuar con el trámite del amparo, sin embargo no accedió a decretar el amparo provisional a favor de la amparista. Además, requirió al Congreso que amplíe el informe y explique la razón por la que no se han elegido los magistrados suplentes que hacían falta.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 75,
+    date:"28 de diciembre de 2023",
+    event:"Corte Suprema de Justicia no otorga amparo provisional a Néstor Estuardo Pérez Felipe.    ",
+    observations:`
+    La acción de amparo presentada por Karen Fischer, se refirió a la falta de elección de magistrados suplentes por parte del Congreso de la República y denunció que la presidente del TSE ha contribuido a la "desintegración" del pleno al otorgar licencias a algunos magistrados. 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 76,
+    date:"2 de enero de 2024",
+    event:"Magistrado Mynor Custodio Franco presenta acción de amparo en contra del TSE    ",
+    observations:`
+    El magistrado denunció como acto reclamado en su amparo  la resolución 1-2023 del Congreso de la República en que se declaró con lugar a la formación de causa las diligencias de antejuicio en contra de los magistrados titulares del TSE: Irma Elizabeth Palencia Orellana, Ranulfo Rafael Rojas Cetina, Gabriel Vladimir Aguilera Bolaños y Mynor Custodio Franco Flores. 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 77,
+    date:"5 de enero de 2024",
+    event:"Diputado Rudio Lecsan, presenta amparo ante la Corte de Constitucionalidad en contra del Congreso y el TSE, solicitando que el binomio presidencial no tome posesión.",
+    observations:`
+    El acto reclamado es la amenaza de que tome posesión y se instale un gobierno ilegítimo, antidemocrático y no representantivo, derivado de unas elecciones viciadas y sujetas a investigación penal por responsabilidad de la máxima autoridad electoral. 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 78,
+    date:"7 de enero de 2024",
+    event:"Juez 7o de Instancia Penal requiere informe al Congreso",
+    observations:`
+    Por medio de un oficio el Juez Freddy Orellana a requerimiento de la FECI, ordenó remitir copia del Informe de aAvances de la investigación el proceso en el que se decretó la suspensión de la persona jurídica del partido Movimiento Semilla, para que el Congreso proceda con los efectos legales que son competencia de este organismo y que informe al Pleno del Congreso sobre este informe. 
+    `,
+    left: false,
+    annexes:"Oficio Juez 7o",
+    link:"https://drive.google.com/file/d/1hcCr3Pxk28sxlHIVWwFrlfaFpNl1xBQJ/view?usp=drive_link",
+    icon: "/images/1.jpeg",
+  },
 
 /*   {
     id: 65,
@@ -766,7 +867,7 @@ const timeEvents = [
     icon: "/images/3.jpeg"
   }, */
   {
-    id: 71,
+    id: 80,
     date: "14 de enero de 2024",
     event: "Toma de posesión de autoridades electas",
     observations: "",

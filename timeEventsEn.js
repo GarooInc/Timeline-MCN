@@ -720,7 +720,108 @@ const timeEventsEn = [
     `,
     left: false,
     icon: "/images/1.jpeg",
+  },{
+    id: 71,
+    date: "December 15, 2023",
+    event: "9th Multi-Person Criminal Court grants protection requested by a group of lawyers against the threat to the democratic regime.",
+    observations: `
+    The protection submitted by a group of lawyers was distributed to different jurisdictional bodies, according to their competence.<br><br>
+    The 9th Multi-Person Criminal Instance Court resolved in its judgment to definitively grant the protection and issue instructions to both FECI and PNC, to ensure the principle of alternation of power and refrain from any action that threatens it.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
   },
+  {
+    id: 72,
+    date: "December 17, 2023",
+    event: "FECI appeals the protection judgment issued by the 9th Multi-Person Criminal Court.",
+    observations: `
+    FECI bases its appeal indicating that there are no real arguments about the supposed attack on the alternation of authorities.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  
+  },
+  {
+    id: 73,
+    date: "December 20, 2023",
+    event: "Constitutional Court resolves partial general unconstitutionality actions against an article of the Organic Law of the Public Ministry.",
+    observations: `
+    The Constitutional Court issued a judgment on the partial general unconstitutionality actions promoted by various actors, against article 14 of the Organic Law of the Public Ministry.<br>
+    The Court considered that the contested legislation does not clash with the Constitution, therefore, it dismissed the partial general unconstitutionality actions brought forward.<br>
+    The effects of this judgment conclude the procedure of unconstitutionality actions and article 14 of the Organic Law of the Public Ministry remains in force.<br>
+    Against this resolution, interested parties may file a clarification and expansion resource within the next 48 hours.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+    link: "https://drive.google.com/file/d/1ZzDu9dDOfHjV0Na0juEbCduOaYlD-eta/view?usp=drive_link"
+  },
+  {
+    id: 73,
+    date: "December 27, 2023",
+    event: "Constitutional Court resolves to suspend the protection action promoted by citizens against the impeachment process of the TSE judges",
+    observations: `
+    The Court considered that the 14 citizens who promoted the protection did not have active legitimacy to promote it.<br>
+    Therefore, it confirmed the withdrawal of immunity for the 4 judges of the TSE.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 74,
+    date: "December 27, 2023",
+    event: "Constitutional Court does not grant provisional protection to Karen Fischer, who promoted a protection action for Congress to elect the 2 substitute judges needed to integrate the TSE full bench.",
+    observations: `
+    The protection action presented by Karen Fischer on December 7, 2023, was admitted by the Constitutional Court.<br>
+    The protection seeks for the Constitutional Court to order Congress to carry out the election of the 2 substitute judges to integrate the TSE full bench.<br>
+    The Constitutional Court resolved to continue with the protection procedure, however, it did not agree to decree the provisional protection in favor of the petitioner. Additionally, it required Congress to expand the report and explain why the substitute judges that were missing have not been elected.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 75,
+    date: "December 28, 2023",
+    event: "Supreme Court of Justice does not grant provisional protection to Néstor Estuardo Pérez Felipe.",
+    observations: `
+    The protection action presented by Karen Fischer referred to the lack of election of substitute judges by the Congress of the Republic and denounced that the president of the TSE has contributed to the "disintegration" of the full bench by granting licenses to some judges.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 76,
+    date: "January 2, 2024",
+    event: "Judge Mynor Custodio Franco presents protection action against the TSE",
+    observations: `
+    The judge denounced as claimed act in his protection the resolution 1-2023 of the Congress of the Republic in which it was declared admissible to form cause the preliminary proceedings against the titular judges of the TSE: Irma Elizabeth Palencia Orellana, Ranulfo Rafael Rojas Cetina, Gabriel Vladimir Aguilera Bolaños, and Mynor Custodio Franco Flores.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 77,
+    date: "January 5, 2024",
+    event: "Congressman Rudio Lecsan presents protection before the Constitutional Court against Congress and the TSE, requesting that the presidential binomial does not take office.",
+    observations: `
+    The claimed act is the threat that the presidential binomial takes office and establishes an illegitimate, antidemocratic, and unrepresentative government, derived from flawed elections and subject to criminal investigation due to the responsibility of the highest electoral authority.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 78,
+    date: "January 7, 2024",
+    event: "7th Criminal Instance Judge requires report from Congress",
+    observations: `
+    Through a letter, Judge Freddy Orellana at the request of FECI, ordered to send a copy of the Progress Report of the investigation in the process in which the suspension of the legal entity of the Movimiento Semilla party was decreed, so that Congress proceeds with the legal effects that are within the competence of this body and informs the Full Congress about this report.
+    `,
+    left: false,
+    annexes: "Letter from 7th Judge",
+    link: "https://drive.google.com/file/d/1hcCr3Pxk28sxlHIVWwFrlfaFpNl1xBQJ/view?usp=drive_link",
+    icon: "/images/1.jpeg",
+  },
+  
 
 /* {
     id: 65,
@@ -759,7 +860,7 @@ const timeEventsEn = [
     icon: "/images/3.jpeg"
   }, */
   {
-    id: 71,
+    id: 80,
     date: "January 14, 2024",
     event: "Inauguration of elected authorities",
     observations: "",
