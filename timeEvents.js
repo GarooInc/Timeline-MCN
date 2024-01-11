@@ -765,7 +765,7 @@ const timeEvents = [
     link:"https://drive.google.com/file/d/1ZzDu9dDOfHjV0Na0juEbCduOaYlD-eta/view?usp=drive_link"
   },
   {
-    id: 73,
+    id: 74,
     date:"27 de diciembre de 2023",
     event:"Corte de Constitucionalidad resuelve suspender acción de amparo promovida por ciudadanos en contra del proceso de antejuicio en contra de los Magistrados del TSE",
     observations:`
@@ -776,7 +776,7 @@ const timeEvents = [
     icon: "/images/1.jpeg",
   },
   {
-    id: 74,
+    id: 75,
     date:"27 de diciembre de 2023",
     event:"Corte de Constitucionalidad no otorga amparo provisional a Karen Fischer, quien promovió acción de amparo para que el Congreso elija a los 2 magistrados suplentes que faltan para integrar el TSE. ",
     observations:`
@@ -788,7 +788,7 @@ const timeEvents = [
     icon: "/images/1.jpeg",
   },
   {
-    id: 75,
+    id: 76,
     date:"28 de diciembre de 2023",
     event:"Corte Suprema de Justicia no otorga amparo provisional a Néstor Estuardo Pérez Felipe.    ",
     observations:`
@@ -798,7 +798,7 @@ const timeEvents = [
     icon: "/images/1.jpeg",
   },
   {
-    id: 76,
+    id: 77,
     date:"2 de enero de 2024",
     event:"Magistrado Mynor Custodio Franco presenta acción de amparo en contra del TSE    ",
     observations:`
@@ -808,7 +808,7 @@ const timeEvents = [
     icon: "/images/1.jpeg",
   },
   {
-    id: 77,
+    id: 78,
     date:"5 de enero de 2024",
     event:"Diputado Rudio Lecsan, presenta amparo ante la Corte de Constitucionalidad en contra del Congreso y el TSE, solicitando que el binomio presidencial no tome posesión.",
     observations:`
@@ -818,8 +818,31 @@ const timeEvents = [
     icon: "/images/1.jpeg",
   },
   {
-    id: 78,
-    date:"7 de enero de 2024",
+    id: 79,
+    date:"5 de enero de 2024",
+    event:"Congreso de la República conoció en el Pleno nuevo oficio enviado por FECI sobre la suspensión del partido Movimiento Semilla",
+    observations:`
+    La presidenta del Congreso, Shirley Rivera, informó al pleno del informe recibido.<br>Posteriormente manifestó que harían una consulta através de la Dirección de Asuntos Jurídicos sobre el estatus del partido para determinar qué procedía al Tribunal Supremo Electoral y Registro de Ciudadanos. 
+
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 80,
+    date:"5 de enero de 2024",
+    event:"Presidenta del Congreso informa sobre requisitos para la toma de posesión de diputados electos    ",
+    observations:`
+    Los requisitos que se solicitan a diputados electos para la toma de posesión son: a) DPI, b) Credencial del TSE y c)Finiquito de la CGC
+    `,
+    left: false,
+    annexes:"Carta de requisitos diputados para toma de posesión",
+    link:"https://drive.google.com/file/d/1UvYrg5qwlNnvpIt3hYNYqeiNcBE_PcsH/view?usp=drive_link",
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 81,
+    date:"8 de enero de 2024",
     event:"Juez 7o de Instancia Penal requiere informe al Congreso",
     observations:`
     Por medio de un oficio el Juez Freddy Orellana a requerimiento de la FECI, ordenó remitir copia del Informe de aAvances de la investigación el proceso en el que se decretó la suspensión de la persona jurídica del partido Movimiento Semilla, para que el Congreso proceda con los efectos legales que son competencia de este organismo y que informe al Pleno del Congreso sobre este informe. 
@@ -829,6 +852,47 @@ const timeEvents = [
     link:"https://drive.google.com/file/d/1hcCr3Pxk28sxlHIVWwFrlfaFpNl1xBQJ/view?usp=drive_link",
     icon: "/images/1.jpeg",
   },
+  {
+    id: 82,
+    date:"9 de enero de 2024",
+    event:"Liga Pro Patria  presenta amparo ante la Corte de Constitucionaliidad en contra el Congreso de la República contra la amenaza de toma de posesión del binomio presidencial electo    ",
+    observations:`
+    El acto reclamado es la amenaza de que el Congreso juramente y dé posesión del cargo de presidente y vicepresidenta al binomio ganador de la elecciones presidenciales, dado que estas fueron nulas de pleno derecho debido a la posibilidad de existencia de fraude electoral. 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 83,
+    date:"9 de enero de 2024",
+    event:"Registro de Ciudadanos confirma vigencia del partido Movimiento Semilla",
+    observations:`
+    El Registro de Ciudadanos del Tribunal Supremo Electoral (TSE), informó a la Dirección de Asuntos Jurídicos del Congreso de la República que el partido político Movimiento Semilla está vigente como organización política. 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 84,
+    date:"11 de enero de 2024",
+    event:"Vicepresidenta electa Karin Herrera presenta acción de amparo contra la amenaza de orden de captura en su contra",
+    observations:`
+    La Vicepresidenta electa, Karin Herrera presentó acción de Amparo ante la Corte de Constitucionalidad, ante la amenaza de una posible orden de detención en su contra, sin que se tramitara el antejuicio correspondiente.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 85,
+    date:"11 de enero de 2024",
+    event:"Corte de Constitucionalidad decreta Amparo Provisional a favor de Karin Herrera",
+    observations:`
+    La Corte de Constitucionalidad otorgó amparo provisional a favor de la Vicepresidenta electa. El efecto de este amparo provisional es que no se pueda ejecutar ninguna orden de captura sin que previamente se agote el proceso de antejuicio establecido en la ley. 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  
 
 /*   {
     id: 65,
@@ -867,7 +931,7 @@ const timeEvents = [
     icon: "/images/3.jpeg"
   }, */
   {
-    id: 80,
+    id: 86,
     date: "14 de enero de 2024",
     event: "Toma de posesión de autoridades electas",
     observations: "",

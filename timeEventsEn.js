@@ -757,7 +757,7 @@ const timeEventsEn = [
     link: "https://drive.google.com/file/d/1ZzDu9dDOfHjV0Na0juEbCduOaYlD-eta/view?usp=drive_link"
   },
   {
-    id: 73,
+    id: 74,
     date: "December 27, 2023",
     event: "Constitutional Court resolves to suspend the protection action promoted by citizens against the impeachment process of the TSE judges",
     observations: `
@@ -768,7 +768,7 @@ const timeEventsEn = [
     icon: "/images/1.jpeg",
   },
   {
-    id: 74,
+    id: 75,
     date: "December 27, 2023",
     event: "Constitutional Court does not grant provisional protection to Karen Fischer, who promoted a protection action for Congress to elect the 2 substitute judges needed to integrate the TSE full bench.",
     observations: `
@@ -780,7 +780,7 @@ const timeEventsEn = [
     icon: "/images/1.jpeg",
   },
   {
-    id: 75,
+    id: 76,
     date: "December 28, 2023",
     event: "Supreme Court of Justice does not grant provisional protection to Néstor Estuardo Pérez Felipe.",
     observations: `
@@ -790,7 +790,7 @@ const timeEventsEn = [
     icon: "/images/1.jpeg",
   },
   {
-    id: 76,
+    id: 77,
     date: "January 2, 2024",
     event: "Judge Mynor Custodio Franco presents protection action against the TSE",
     observations: `
@@ -800,7 +800,7 @@ const timeEventsEn = [
     icon: "/images/1.jpeg",
   },
   {
-    id: 77,
+    id: 78,
     date: "January 5, 2024",
     event: "Congressman Rudio Lecsan presents protection before the Constitutional Court against Congress and the TSE, requesting that the presidential binomial does not take office.",
     observations: `
@@ -810,8 +810,31 @@ const timeEventsEn = [
     icon: "/images/1.jpeg",
   },
   {
-    id: 78,
-    date: "January 7, 2024",
+    id:79,
+    date:"January 5, 2024",
+    event:"Congress of the Republic learned in plenary session of a new letter sent by FECI regarding the suspension of the Movimiento Semilla party",
+    observations:`
+    The president of Congress, Shirley Rivera, informed the plenary session of the report received. She subsequently stated that they would make a consultation through the Directorate of Legal Affairs on the status of the party to determine what proceeded to the Supreme Electoral Tribunal and Citizen Registry. .
+
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id:80,
+    date:"January 5, 2024",
+    event:"President of Congress reports on requirements for the inauguration of elected deputies",
+    observations:`
+    The requirements requested from elected deputies for the inauguration are: a) DPI, b) TSE credential and c) CGC settlement
+    `,
+    left: false,
+    annexes:"Letter of deputy requirements for taking office",
+    link:"https://drive.google.com/file/d/1UvYrg5qwlNnvpIt3hYNYqeiNcBE_PcsH/view?usp=drive_link",
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 81,
+    date: "January 8, 2024",
     event: "7th Criminal Instance Judge requires report from Congress",
     observations: `
     Through a letter, Judge Freddy Orellana at the request of FECI, ordered to send a copy of the Progress Report of the investigation in the process in which the suspension of the legal entity of the Movimiento Semilla party was decreed, so that Congress proceeds with the legal effects that are within the competence of this body and informs the Full Congress about this report.
@@ -819,6 +842,46 @@ const timeEventsEn = [
     left: false,
     annexes: "Letter from 7th Judge",
     link: "https://drive.google.com/file/d/1hcCr3Pxk28sxlHIVWwFrlfaFpNl1xBQJ/view?usp=drive_link",
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 82,
+    date:"January 9, 2024",
+    event: "Liga Pro Patria presents protection before the Constitutional Court against the Congress of the Republic against the threat of taking possession of the elected presidential duo",
+    observations:`
+    The act complained of is the threat that Congress will swear in and give possession of the position of president and vice president to the winning duo of the presidential elections, given that these were null and void due to the possibility of electoral fraud.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 83,
+    date:"January 9, 2024",
+    event: "Citizen Registry confirms validity of the Semilla Movement party",
+    observations:`
+    The Citizen Registry of the Supreme Electoral Tribunal (TSE) informed the Directorate of Legal Affairs of the Congress of the Republic that the political party Movimiento Semilla is in force as a political organization.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 84,
+    date:"January 11, 2024",
+    event: "Vice President-elect Karin Herrera presents an amparo action against the threat of an arrest warrant against her",
+    observations:`
+    The Vice President-elect, Karin Herrera, filed an amparo action before the Constitutional Court, faced with the threat of a possible arrest warrant against her, without the corresponding pre-trial being processed.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 85,
+    date:"January 11, 2024",
+    event: "Constitutional Court decrees Provisional Amparo in favor of Karin Herrera",
+    observations:`
+    The Constitutional Court granted provisional protection in favor of the Vice President-elect. The effect of this provisional protection is that no arrest warrant can be executed without first exhausting the pretrial process established by law.
+    `,
+    left: false,
     icon: "/images/1.jpeg",
   },
   
@@ -860,7 +923,7 @@ const timeEventsEn = [
     icon: "/images/3.jpeg"
   }, */
   {
-    id: 80,
+    id: 86,
     date: "January 14, 2024",
     event: "Inauguration of elected authorities",
     observations: "",
