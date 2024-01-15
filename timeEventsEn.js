@@ -883,6 +883,214 @@ const timeEventsEn = [
     `,
     left: false,
     icon: "/images/1.jpeg",
+  },{
+    id:86,
+    date:"January 12, 2024",
+    event:"Constitutional Court denies protection to Rudio Lecsan and Liga Pro Patria",
+    observations:`
+    The Constitutional Court confirmed that the elected pair can take office on January 14, by not granting protection to Rudio Lecsan Mérida and Liga Pro Patria who sought to prevent the inauguration from taking place by alleging irregularities in the legislative process.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id:87,
+    date:"January 12, 2024",
+    event:"Permanent Commission of Congress provisionally declares the deputies of the Semilla party as independent",
+    observations:`
+    The Permanent Commission of Congress notified the seed deputies of the resolution in which they take note of the temporary suspension of the legal entity of the Semilla Movement party and provisionally declares the deputies of this legislative block as independent deputies, by order of the 7th judge of Criminal instance.<br>
+    Therefore, seed deputies are excluded from joining the Board of Directors of Congress, leading committees or participating in the preparation of the legislative agenda.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id:88,
+    date:"January 13, 2024",
+    event:"Deputy Julio Héctor Estrada presents an amparo action before the Constitutional Court against the requirements required by the Board of Directors of Congress to take office. The provisional Amparo was denied by the Constitutional Court.",
+    observations:`
+    The court decided to deny provisional protection to the elected representative Julio Héctor Estrada, who denounced the threat of not being given possession.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id:89,
+    date:"January 13, 2024",
+    event:"The Semilla Movement party presented an amparo action against the decision of the Permanent Commission to declare its deputies independent. The Provisional Amparo was denied by the Constitutional Court.",
+    observations:`
+    The court decided to deny provisional protection to the Semilla Movement party, promoted against the decision of the Permanent Commission to declare the deputies of this party as independent in compliance with what was ordered by the 7th Criminal Instance Judge.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 90,
+    date:"January 14, 2024",
+    event:"Seed Movement Party presents due execution before the Constitutional Court.",
+    observations:`
+    The Semilla Movement party presented a due execution of the Amparo Sentence issued on December 14, 2023. With the purpose of revoking the decision to declare the elected deputies of this party as independent, by order of suspension of the party issued by the Judge 7th Criminal Instance.<br>
+    The Constitutional Court decided to deny due execution, ordering that the elected deputies be sworn in. However, these will be declared as independent deputies.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id:91,
+    date:"January 14, 2024 - 9:00",
+    event:"Solemn Session of the Congress of the Republic",
+    observations:`
+    The solemn session opened and Representative Shirley Rivera, president of Congress, gave a speech prior to voting on the minutes of the previous extraordinary session.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id:92,
+    date:"January 14, 2024 - 11:00 - 14:00",
+    event:"Plenary Session is suspended so that the Credentials Review Commission can carry out its work",
+    observations:`
+    The plenary session was suspended to give space to the Credentials Review Commission to carry out the review of the requirements for swearing in the new deputies who will make up the tenth legislature.<br>
+    However, during the work of this commission, the lack of knowledge regarding the mechanisms used to integrate it was reported. Finally the work of this commission was suspended due to disturbances between elected representatives, outgoing representatives, congressional security and journalists.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id:93,
+    date:"January 14, 2024 - 15:44",
+    event:"Group of lawyers presents request for due execution of Amparo sentence of the Constitutional Court",
+    observations:`
+    Lawyers present a request to the Constitutional Court for due execution of the amparo ruling issued on December 14, 2023.<br>
+    In order for the Constitutional Court to ensure compliance with the protection and guarantee the transition of command.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id:94,
+    date:"January 14, 2024 - 16:00",
+    event:"Credential Review Commission resumes its work",
+    observations:`
+    After Representative Shirley Rivera, president of Congress, held a press conference, the Credentials Review Commission resumed its work prior to the swearing-in of the elected representatives.<br>
+    The deputies of the commission agreed to recommend the non-swearing of Deputy Julio Héctor Estrada and to submit to plenary discussion the status in which the deputies of the Semilla Movement party will take office. Whether they will be given the status of independent deputies or whether they will be recognized as a legislative bloc.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id:95,
+    date:"January 14, 2024 - 17:00",
+    event:"Luis Almagro, together with representatives of international delegations, call on the Congress of the Republic to continue with the government transition.",
+    observations:`
+    After a delay of hours in the plenary session for the swearing-in of the elected deputies, Luis Almagro, together with representatives of international delegations, call on the Congress of the Republic to continue the process in accordance with the law and to carry out the transition command on January 14.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id:96,
+    date:"January 14, 2024 - 18:00",
+    event:"Plenary Session of Congress resumes.",
+    observations:`
+    Once the work of the Credentials Review Commission was concluded, the Plenary Session resumed to swear in the elected deputies who make up the tenth legislature.
+    Prior to the swearing-in, Congress approved an agreement that decided:
+    <br>1. Failure to swear in deputy Julio Héctor Estrada (Cabal) who, despite having presented his 2024 settlement, was validated in the system of the Comptroller General of Accounts and it was identified that there is a complaint against him.
+    <br>2. Declare the deputies independent:
+    <br>a) Adim Maldonado, for having been expelled from the UNE party
+    <br>b) José Inés Castillo, for having been expelled from the UNE party
+    <br>c) 23 deputies of the Semilla Movement party, due to suspension of the legal personality of the political party ordered by Judge Freddy Orellana.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id:97,
+    date:"January 14, 2024 - 19:50",
+    event:"Swearing-in of the elected representatives.",
+    observations:`
+    The deputies were sworn in.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id:98,
+    date:"January 14, 2024 - 20:40",
+    event:"Constitutional Court ex officio gives hearing",
+    observations:`
+    The Constitutional Court ex officio gives a hearing for 2 hours to the President of Congress so that he can report on the solemn session that is taking place within a maximum period of 1 hour.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 99,
+    date:"January 14, 2024 - 20:40",
+    event:"Constitutional Court gives hearing within due execution presented by lawyers in defense of democracy",
+    observations:`
+    The Constitutional Court decided to give a hearing to the President of the Republic, the Congress of the Republic and the Board of Directors of Congress for 2 hours so that they could provide a detailed report on compliance with the sentence handed down by the court.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },{
+    id: 100,
+    date:"January 14, 2024 - 21:30",
+    event:"Board of Directors Election.",
+    observations:`
+    The Congress of the Republic elected the board of directors for 2024-2025, which will be made up of the following:
+    Samuel Pérez - Seed<br>
+    Adim Maldonado - First Vice President<br>
+    César Amézquita - Second Vice President<br>
+    Nery Rodas - Third Vice President<br>
+    Andrea Villagrán - First Secretary<br>
+    Raúl Solórzano – Second Secretary<br>
+    César Roberto Dávila - Third Secretary<br>
+    Juan Carlos Rivera - Fourth Secretary<br>
+    Sonia Gutiérrez Raguay - Fifth Secretary<br>
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 101,
+    date:"January 14, 2024 - 22:00",
+    event:"Presentation of the 4th Outgoing Government Report",
+    observations:`
+    During the Solemn Session, the written presentation of the Fourth Government Report by President Alejandro Giammattei was reported.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 102,
+    date:"January 14, 2024 - 22:30",
+    event:"Recess of the Plenary Session and Transfer to the Miguel Ángel Asturias Culture Center",
+    observations:`
+    A recess of the solemn session is granted for the purpose of the authorities moving to the National Theater, to continue with the act of transmission of command.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 103,
+    date:"January 14, 2024 - 23:40",
+    event:"The solemn session resumes at the Miguel Ángel Asturias Cultural Center",
+    observations:`
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 104,
+    date:"January 15, 2024 - 00:15",
+    event:"Swearing-in and Inauguration of the President and Vice President for the period 2024-2028",
+    observations:`
+    In the Great Efraín Recinos Room of the Miguel Ángel Asturias Culture Center, the Solemene Session continues and the swearing-in and taking of position of President Bernardo Arévalo and Vice President Karin Herrera takes place.<br>
+    Subsequently, the presidential sash is placed on the new ruler, the presidential pin is imposed on him and he is given the keys to the urn of the first Political Constitution of the Republic, to end with the signing of the golden book of Congress.
+    `,
+    left: true,
+    icon: "/images/2.jpeg",
   },
   
 
@@ -921,7 +1129,7 @@ const timeEventsEn = [
     annexes: "",
     left: true,
     icon: "/images/3.jpeg"
-  }, */
+  }, 
   {
     id: 86,
     date: "January 14, 2024",
@@ -930,7 +1138,7 @@ const timeEventsEn = [
     annexes: "",
     left: true,
     icon: "/images/7.png"
-  },
+  },*/
 ];
 
 export default timeEventsEn;

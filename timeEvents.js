@@ -892,6 +892,216 @@ const timeEvents = [
     left: false,
     icon: "/images/1.jpeg",
   },
+  {
+    id: 86,
+    date:"12 de enero de 2024",
+    event:"Corte de Constitucionalidad deniega amparos a Rudio Lecsan y Liga Pro Patria ",
+    observations:`
+    La Corte de Constitucionalidad confirmó que el binomio electo puede asumir el 14 de enero, al no otorgar los amparos a Rudio Lecsan Mérida y Liga Pro Patria que buscaban impedir que se llevara a cabo la toma de posesión aduciando irregularidades en el proceso legislativo. 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 87,
+    date:"12 de enero de 2024",
+    event:"Comisión Permanente del Congreso declara provisionalmente a los diputados del partido Semilla como independientes",
+    observations:`
+    La Comisión Permente del Congreso notifició a los diputados de semilla la resolución en la que toman nota de la suspensión temporal de la persona jurídica del partido Movimiento Semilla y declara provisionalmente a los diputados de este bloque legislativo cmo diputados independientes, por orden del juez 7o de Instancia penal.<br> 
+    Por lo que los  diputados de semilla quedan excluidos de integrar la Junta Directiva del Congreso, liderar comites o participar en la preparacion de la agenda legislativa.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 88,
+    date:"13 de enero de 2024",
+    event:"Diputado Julio Héctor Estrada presenta acción de amparo ante la Corte de Constitucionalidad  en contra de los requisitos requeridos por la Junta Directiva del Congreso para dar toma de posesión. El Amparo provisional fue denegado por la Corte de Constitucionalidad.",
+    observations:`
+    La corte resolvió denegar el amparo provisional al diputado electo Julio Héctor Estrada, quien denunció la amenaza de que no se le diera posesión. 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 89,
+    date:"13 de enero de 2024",
+    event:"El partido Movimiento Semilla presentó una acción de amparo contra decisión de la Comisión Permanente de declarar a sus diputados independientes. El Amparo Provisiosional fue denegado por la Corte de Constitucionalidad.",
+    observations:`
+    La corte resolvió denegar el amparo provisional al partido Movimiento Semilla, promovida en contra de la decisión de la Comisión Permanente de declarar a los diputados de este partido como independientes en cumplimiento a lo ordenado por el Juez 7o de Instancia Penal. 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 90,
+    date:"14 de enero de 2024",
+    event:"Partido Movimiento Semilla presenta debida ejecución ante la Corte de Constitucionalidad.",
+    observations:`
+    El partido Movimiento Semilla presentó una debida ejecución de la Sentencia de Amparo dictada el 14 de diciembre de 2023. Con el propósito de revocar la decisión de declarar a los diputados electos de este partido como independientes, por orden de suspensión del partido dictada por el Juez 7o de Instancia Penal.<br>
+    La Corte de Constitucionalidad resolvió denegar la debida ejecución ordenando que se juramente a los diputados electos. Sin embargo, estos serán declarados como diputados independientes. 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 91,
+    date:"14 de enero de 2024 - 9:00",
+    event:"Sesión Solemne del Congreso de la República",
+    observations:`
+    Se aperturó la sesión solemne y la diputada Shirley Rivera, presidenta del Congreso, di un discurso previo a que se procediera a votar el acta de la sesión extraordinaria anterior. 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 92,
+    date:"14 de enero de 2024 - 11:00 - 14:00",
+    event:"Se suspende Sesión Plenaria para que Comisión revisora de Credenciales lleve a cabo su labor",
+    observations:`
+    La sesión plenaria se suspendió para darle espacio a la Comisión Revisora de Credenciales para que llevue a cabo la revisión de los requisitos para juramentar a los nuevos diputados que conformarán la décima legislatura.<br>
+    Sin embargo, durante la labor de esta comisión se denunció el desconocimiento respecto a los mecanismos empleados para integrarla. Finalmente la labor de esta comisión se suspendió debido a disturbios entre diputados electos, diputados salientes, seguridad del Congreso y periodistas.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 93,
+    date:"14 de enero de 2024 - 15:44",
+    event:"Grupo de abogados presenta solicitud de debida ejecución de sentencia de Amparo de la Corte de Constitucionalidad",
+    observations:`
+    Abogados presentan ante la Corte de Constitucionalidad solicitud de debida ejecución de la sentencia de amparo dictada el 14 de diciembre de 2023.<br>
+    A efecto de que la Corte de Constitucionalidad para asegurar el cumplimiento del amparo y garantizar la transición de mando. 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 94,
+    date:"14 de enero de 2024 - 16:00 ",
+    event:"Comisión Revisora de Credenciales retoma su labor",
+    observations:`
+    Luego de que la diputada Shirley Rivera, presidenta del Congreso, llevara a cabo una conferencia de prensa, la Comisión Revisora de Credenciales retomó su labor previa a la juramentación de los diputados electos.<br>
+    Los diputados de la comisión acordaron recomendar la no juramentación del diputado Julio Héctor Estrada y someter a discusión del Pleno el estatus en el que tomarán posesión los diputados del partido Movimiento Semilla. Si se les dará la calidad de diputados independientes o si se reconocerán como un bloque legislativo. 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 95,
+    date:"14 de enero de 2024 - 17:00 ",
+    event:"Luis Almagro junto a representantes de delegaciones internacionales, hacen un llamado al Congreso de la República para continuar con la transición de gobierno.",
+    observations:`
+    Luego de un retraso de horas en la sesión plenaria para la juramentación de los diputados electos, Luis Almagro junto a representantes de delegaciones internacionales, hacen un llamado al Congreso de la República para que se continúe el proceso conforme a la ley y se realice la transición de mando el 14 de enero. 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 96,
+    date:"14 de enero de 2024 - 18:00 ",
+    event:"Se reanuda Sesión Plenaria del Congreso.",
+    observations:`
+    Concluida la labor de la Comisión Revisora de Credenciales se reanudó la Sesión Plenaria para juramentar a los diputados electos que integran la décima legislatura. 
+    Previo a la Juramentación el Congreso aprobó acuerdo el que decidieron: 
+    <br>1. No juramentar del diputado Julio Héctor Estrada (Cabal) quien, a pesar de haber presentado su finiquito del 2024, se validó en el sistema de la Contraloría General de Cuentas y se identificó que existe una denuncia en su contra.
+    <br>2. Declarar independientes a los diputados:
+    <br>a) Adim Maldonado, por haber sido expulsados del partido UNE
+    <br>b) José Inés Castillo, por haber sido expulstados del partido UNE
+    <br>c) 23 diputados del partido Movimiento Semilla, por suspensión de la personalidad jurídica del partido político ordenada por el juez Freddy Orellana.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 97,
+    date:"14 de enero de 2024 - 19:50",
+    event:"Juramentación de los diputados Electos.",
+    observations:`
+    Se juramentaron los diputados.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 98,
+    date:"14 de enero de 2024 - 20:40",
+    event:"Corte de Constitucionalidad de oficio da audiencia",
+    observations:`
+    La Corte de Constitucionalidad de oficio da audiencia por 2 horas al Presidente del Congreso para que informe sobre la sesión solemne que se está llevando a cabo en un término máximo de 1 hora.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 99,
+    date:"14 de enero de 2024 - 20:40",
+    event:"Corte de Constitucionalidad da audiencia dentro de debida ejecución presentada por abogados en defensa de la democracia ",
+    observations:`
+    La Corte de Constitucionalidad resolvió dar audiencia al Presdiente de la República, el Congreso de la República y la Junta Directiva del Congreso por 2 horas para que rindan informe circunstanciado sobre el cumplimiento a la sentencia dictada por la corte. 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 100,
+    date:"14 de enero de 2024 - 21:30",
+    event:"Elección Junta Directiva.",
+    observations:`
+    El Congreso de la República eligió a la junta directiva para el 2024-2025, la que estará integrada de la siguiente forma: 
+    Samuel Pérez - Semilla<br> 
+    Adim Maldonado - Primer Vicepresidente<br> 
+    César Amézquita - Segundo Vicepresidente<br> 
+    Nery Rodas - Tercer Vicepresidente<br> 
+    Andrea Villagrán - Primer Secretario<br>  
+    Raúl Solórzano – Segundo Secretario<br> 
+    César Roberto Dávila - Tercer Secretario<br> 
+    Juan Carlos Rivera - Cuarto Secretario<br>  
+    Sonia Gutiérrez Raguay - Quinto secretario<br> 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 101,
+    date:"14 de enero de 2024 - 22:00",
+    event:"Presentación del 4to Informe de Gobierno Saliente ",
+    observations:`
+    Durante la Sesión Solemne se informó sobre la presentación por escrito del Cuarto Informe del Gobierno por el Presidente Alejandro Giammattei.
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 102,
+    date:"14 de enero de 2024 - 22:30",
+    event:"Receso de la Sesión Plenaria y Traslado a Centro Cultura Miguel Ángel Asturias ",
+    observations:`
+    Se otorga un receso de la sesión solemne con el propósito de que las autoridades se trasladen al Teatro Nacional, para continuar con el acto de transmisión de mando. 
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 103,
+    date:"14 de enero de 2024 - 23:40",
+    event:"Se reinicia la sesión solemne en el Centro Cultural Miguel Ángel Asturias",
+    observations:`
+    `,
+    left: false,
+    icon: "/images/1.jpeg",
+  },
+  {
+    id: 104,
+    date:"15 de enero de 2024 - 00:15",
+    event:"Juramentación y Toma  de Posesión del Presidente y Vicepresidente para el periodo 2024-2028",
+    observations:`
+    En la Gran Sala Efraín Recinos del Centro Cultura Miguel Ángel Asturias, se continúa con la Sesión Solemene y se realiza la juramentación y toma de posición del Presidente Bernardo Arévalo y Vicepresidenta Karin Herrera.<br>
+    Posteriormente se coloca la banda presidencial al nuevo gobernante, se le impone el pin presidencial y se le entregan las llaves de la urna de la primera Constitución Política de la República, para finalizar con la firma del libro de oro del Congreso. 
+    `,
+    left: true,
+    icon: "/images/2.jpeg",
+  },
   
 
 /*   {
@@ -929,7 +1139,7 @@ const timeEvents = [
     annexes: "",
     left: true,
     icon: "/images/3.jpeg"
-  }, */
+  }, 
   {
     id: 86,
     date: "14 de enero de 2024",
@@ -938,7 +1148,7 @@ const timeEvents = [
     annexes: "",
     left: true,
     icon: "/images/7.png"
-  },
+  },*/
   ];
   
     export default timeEvents;
