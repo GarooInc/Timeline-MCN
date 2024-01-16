@@ -926,7 +926,7 @@ const timeEvents = [
   {
     id: 89,
     date:"13 de enero de 2024",
-    event:"El partido Movimiento Semilla presentó una acción de amparo contra decisión de la Comisión Permanente de declarar a sus diputados independientes. El Amparo Provisiosional fue denegado por la Corte de Constitucionalidad.",
+    event:"El partido Movimiento Semilla presentó una acción de amparo contra la decisión de la Comisión Permanente de declarar a sus diputados independientes. El Amparo Provisional fue denegado por la Corte de Constitucionalidad",
     observations:`
     La corte resolvió denegar el amparo provisional al partido Movimiento Semilla, promovida en contra de la decisión de la Comisión Permanente de declarar a los diputados de este partido como independientes en cumplimiento a lo ordenado por el Juez 7o de Instancia Penal. 
     `,
@@ -949,7 +949,7 @@ const timeEvents = [
     date:"14 de enero de 2024 - 9:00",
     event:"Sesión Solemne del Congreso de la República",
     observations:`
-    Se aperturó la sesión solemne y la diputada Shirley Rivera, presidenta del Congreso, di un discurso previo a que se procediera a votar el acta de la sesión extraordinaria anterior. 
+    Se aperturó la sesión solemne y la diputada Shirley Rivera, presidenta del Congreso, dio un discurso previo a que se procediera a votar el acta de la sesión extraordinaria anterior. 
     `,
     left: false,
     icon: "/images/1.jpeg",
@@ -957,10 +957,10 @@ const timeEvents = [
   {
     id: 92,
     date:"14 de enero de 2024 - 11:00 - 14:00",
-    event:"Se suspende Sesión Plenaria para que Comisión revisora de Credenciales lleve a cabo su labor",
+    event:"Se suspende Sesión Solemne para que Comisión revisora de Credenciales lleve a cabo su labor",
     observations:`
-    La sesión plenaria se suspendió para darle espacio a la Comisión Revisora de Credenciales para que llevue a cabo la revisión de los requisitos para juramentar a los nuevos diputados que conformarán la décima legislatura.<br>
-    Sin embargo, durante la labor de esta comisión se denunció el desconocimiento respecto a los mecanismos empleados para integrarla. Finalmente la labor de esta comisión se suspendió debido a disturbios entre diputados electos, diputados salientes, seguridad del Congreso y periodistas.
+    La sesión solemne se suspendió para darle espacio a la Comisión Revisora de Credenciales para que lleve a cabo la revisión de los requisitos para juramentar a los nuevos diputados que conformarán la décima legislatura.<br><br> 
+    Sin embargo, durante la labor de esta comisión se denunció el desconocimiento respecto a los mecanismos empleados para integrarla. Finalmente, la labor de esta comisión se suspendió debido a disturbios entre diputados electos, diputados salientes, seguridad del Congreso y periodistas.
     `,
     left: false,
     icon: "/images/1.jpeg",
@@ -970,8 +970,8 @@ const timeEvents = [
     date:"14 de enero de 2024 - 15:44",
     event:"Grupo de abogados presenta solicitud de debida ejecución de sentencia de Amparo de la Corte de Constitucionalidad",
     observations:`
-    Abogados presentan ante la Corte de Constitucionalidad solicitud de debida ejecución de la sentencia de amparo dictada el 14 de diciembre de 2023.<br>
-    A efecto de que la Corte de Constitucionalidad para asegurar el cumplimiento del amparo y garantizar la transición de mando. 
+    Abogados presentan ante la Corte de Constitucionalidad solicitud de debida ejecución de la sentencia de amparo dictada el 14 de diciembre de 2023.<br> 
+    A efecto de que la Corte de Constitucionalidad se pronuncie para asegurar el cumplimiento del amparo y garantizar la transición de mando. 
     `,
     left: false,
     icon: "/images/1.jpeg",
@@ -992,7 +992,7 @@ const timeEvents = [
     date:"14 de enero de 2024 - 17:00 ",
     event:"Luis Almagro junto a representantes de delegaciones internacionales, hacen un llamado al Congreso de la República para continuar con la transición de gobierno.",
     observations:`
-    Luego de un retraso de horas en la sesión plenaria para la juramentación de los diputados electos, Luis Almagro junto a representantes de delegaciones internacionales, hacen un llamado al Congreso de la República para que se continúe el proceso conforme a la ley y se realice la transición de mando el 14 de enero. 
+    Luego de un retraso de horas en la sesión solemne para la juramentación de los diputados electos, Luis Almagro junto a representantes de delegaciones internacionales, hacen un llamado al Congreso de la República para que continúe el proceso conforme a la ley y se realice la transición de mando el 14 de enero. 
     `,
     left: false,
     icon: "/images/1.jpeg",
@@ -1002,13 +1002,14 @@ const timeEvents = [
     date:"14 de enero de 2024 - 18:00 ",
     event:"Se reanuda Sesión Plenaria del Congreso.",
     observations:`
-    Concluida la labor de la Comisión Revisora de Credenciales se reanudó la Sesión Plenaria para juramentar a los diputados electos que integran la décima legislatura. 
-    Previo a la Juramentación el Congreso aprobó acuerdo el que decidieron: 
-    <br>1. No juramentar del diputado Julio Héctor Estrada (Cabal) quien, a pesar de haber presentado su finiquito del 2024, se validó en el sistema de la Contraloría General de Cuentas y se identificó que existe una denuncia en su contra.
-    <br>2. Declarar independientes a los diputados:
-    <br>a) Adim Maldonado, por haber sido expulsados del partido UNE
-    <br>b) José Inés Castillo, por haber sido expulstados del partido UNE
-    <br>c) 23 diputados del partido Movimiento Semilla, por suspensión de la personalidad jurídica del partido político ordenada por el juez Freddy Orellana.
+    Concluida la labor de la Comisión Revisora de Credenciales se reanudó la Sesión Solemne para juramentar a los diputados electos que integran la décima legislatura.<br> 
+    Previo a la Juramentación el Congreso aprobó acuerdo en el que decidieron:<br>
+    <br>1. No juramentar del diputado Julio Héctor Estrada (Cabal) quien, a pesar de haber presentado su finiquito del 2024, al validarse en el sistema de la Contraloría General de Cuentas, la Comisión identificó que existe una denuncia en su contra.
+    <br><br>2. Declarar independientes a los diputados:
+    <br>a) Adim Maldonado, por haber sido expulsado del partido UNE
+    <br>b) José Inés Castillo, por haber sido expulsado del partido UNE
+    <br>c) 23 diputados del partido Movimiento Semilla, por suspensión de la personalidad jurídica del partido político ordenada por el juez Freddy Orellana. 
+
     `,
     left: false,
     icon: "/images/1.jpeg",
@@ -1038,7 +1039,7 @@ const timeEvents = [
     date:"14 de enero de 2024 - 20:40",
     event:"Corte de Constitucionalidad da audiencia dentro de debida ejecución presentada por abogados en defensa de la democracia ",
     observations:`
-    La Corte de Constitucionalidad resolvió dar audiencia al Presdiente de la República, el Congreso de la República y la Junta Directiva del Congreso por 2 horas para que rindan informe circunstanciado sobre el cumplimiento a la sentencia dictada por la corte. 
+    La Corte de Constitucionalidad resolvió dar audiencia al Presidente de la República, el Congreso de la República y la Junta Directiva del Congreso por 2 horas para que rindan informe circunstanciado sobre el cumplimiento a la sentencia dictada por la corte el 14 de diciembre de 2023.
     `,
     left: false,
     icon: "/images/1.jpeg",
@@ -1048,16 +1049,18 @@ const timeEvents = [
     date:"14 de enero de 2024 - 21:30",
     event:"Elección Junta Directiva.",
     observations:`
-    El Congreso de la República eligió a la junta directiva para el 2024-2025, la que estará integrada de la siguiente forma: 
-    Samuel Pérez - Semilla<br> 
-    Adim Maldonado - Primer Vicepresidente<br> 
-    César Amézquita - Segundo Vicepresidente<br> 
-    Nery Rodas - Tercer Vicepresidente<br> 
-    Andrea Villagrán - Primer Secretario<br>  
-    Raúl Solórzano – Segundo Secretario<br> 
-    César Roberto Dávila - Tercer Secretario<br> 
-    Juan Carlos Rivera - Cuarto Secretario<br>  
-    Sonia Gutiérrez Raguay - Quinto secretario<br> 
+    El Congreso de la República eligió a la junta directiva para el 2024-2025, la que estará integrada de la siguiente forma:<br> 
+    <br> Samuel Pérez - Presidente
+    <br> Adim Maldonado - Primer Vicepresidente 
+    <br> César Amézquita - Segundo Vicepresidente
+    <br> Nery Rodas - Tercer Vicepresidente
+    <br> Andrea Villagrán - Primer Secretario 
+    <br> Raúl Solórzano – Segundo Secretario
+    <br> César Roberto Dávila - Tercer Secretario
+    <br> Juan Carlos Rivera - Cuarto Secretario 
+    <br> Sonia Gutiérrez Raguay - Quinto secretario
+
+    <br><br>Posteriormente la pleno de la décima legislatura acordó reformar el acuerdo 1-2024 a efecto de incluir al diputado Julio Héctor Estrada en el listado de los diputados a tomar posesión, revertir la expulsión de los diputados Adim Maldonado e Inés Castillo del partido UNE y reconcer al Bloque Semilla como un Bloque Legislativo. 
     `,
     left: false,
     icon: "/images/1.jpeg",
@@ -1067,7 +1070,7 @@ const timeEvents = [
     date:"14 de enero de 2024 - 22:00",
     event:"Presentación del 4to Informe de Gobierno Saliente ",
     observations:`
-    Durante la Sesión Solemne se informó sobre la presentación por escrito del Cuarto Informe del Gobierno por el Presidente Alejandro Giammattei.
+    Durante la Sesión Solemne se informó sobre la presentación por escrito del Cuarto Informe de Gobierno por parte del Presidente Alejandro Giammattei.
     `,
     left: false,
     icon: "/images/1.jpeg",
@@ -1077,7 +1080,7 @@ const timeEvents = [
     date:"14 de enero de 2024 - 22:30",
     event:"Receso de la Sesión Plenaria y Traslado a Centro Cultura Miguel Ángel Asturias ",
     observations:`
-    Se otorga un receso de la sesión solemne con el propósito de que las autoridades se trasladen al Teatro Nacional, para continuar con el acto de transmisión de mando. 
+    Se otorga un receso de la sesión solemne con el propósito de que las autoridades se trasladen al Centro Cultural Miguel Ángel Asturias, para continuar con el acto de transmisión de mando. 
     `,
     left: false,
     icon: "/images/1.jpeg",
