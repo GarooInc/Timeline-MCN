@@ -137,6 +137,7 @@ function App() {
       </h1>
       </a>
       <CountdownTimer language={language} />
+      <span className=' w-full px-10 text-black md:text-xl text-lg m-4 md:mx-0 mx-4 text-center'>Entre la elección y la toma de posesión, que es cuando culmina la transición del poder y asumen las nuevas autoridades electas, han existido muchos eventos. Desde los procedimientos normales que deben tomarse para que las autoridades electas conozcan las instituciones que encabezarán (este es el proceso de transición), hasta investigaciones penales y otros sucesos que ponen en riesgo nuestro sistema republicano y democrático. ¡Aquí te mostramos todo!</span>
       <div className="relative container mx-auto px-6 w-full flex flex-col space-y-8 h-full">
             {(language === 'es' ? timeEvents : timeEventsEn).slice().reverse().map((event, index) => (
               <Timeline
