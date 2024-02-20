@@ -374,7 +374,7 @@ const timeEventsEn = [
         annexes: "TSE resolution dated September 2, 2023.",
         left: false,
         icon: "/images/1.jpeg",
-        link:"https://drive.google.com/file/d/1z7eDdvB0E40-tyVf5KyVKYFwpSuaLNLQ/view?usp=drive_link"
+        link:"https://drive.google.com/file/d/1VHfdy5Emv8RGmSLAdbzLL83NiaiwpXpx/view?usp=sharing"
     },
     {
         id: 39,
@@ -829,7 +829,7 @@ const timeEventsEn = [
     `,
     left: false,
     annexes:"Letter of deputy requirements for taking office",
-    link:"https://drive.google.com/file/d/1UvYrg5qwlNnvpIt3hYNYqeiNcBE_PcsH/view?usp=drive_link",
+    link:"https://drive.google.com/file/d/1Yg8c1K4H0Vb4dlTe8G3-ZgeT1B-g6pNk/view?usp=sharing",
     icon: "/images/1.jpeg",
   },
   {
@@ -841,7 +841,7 @@ const timeEventsEn = [
     `,
     left: false,
     annexes: "Letter from 7th Judge",
-    link: "https://drive.google.com/file/d/1hcCr3Pxk28sxlHIVWwFrlfaFpNl1xBQJ/view?usp=drive_link",
+    link: "https://drive.google.com/file/d/13p0-R6r1x5hBwHOjlTsImqsqi0Ld1F-e/view?usp=sharing",
     icon: "/images/1.jpeg",
   },
   {
